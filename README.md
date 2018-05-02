@@ -1,1 +1,1 @@
-# google-search-results
+This project uses HTML and CSS to create a Google search results page. Like the [Google homepage project](https://github.com/DensenKG/google-homepage), it is a non-functional, non-exact replica and is part of The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/html-css). The code for that project served as a starting point for this one. 
