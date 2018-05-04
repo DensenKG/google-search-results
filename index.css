@@ -21,11 +21,20 @@ li {
   font: 13px arial, sans-serif;
 }
 a {
-  color: #0e0e0e;
+  color: #777;
   text-decoration: none;
+}
+.primary {
+  border-bottom: 3px solid #1A73E8;
+  color: #1A73E8;
+  font-weight: bold;
+  padding-bottom: 22px;
 }
 ul {
   width: 100%;
+}
+input {
+  padding-left: 10px;
 }
 
 .bar {
@@ -79,4 +88,14 @@ padding-top: 15px;
 }
 #logo {
   padding-top: 4px;
+}
+#below-left {
+  padding-left: 140px;
+  padding-top: 25px;
+  position: fixed;
+}
+#below-right {
+  padding-top: 25px;
+  position: fixed;
+  padding-left: 535px;
 }
