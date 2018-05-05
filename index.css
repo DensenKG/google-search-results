@@ -23,7 +23,7 @@ input {
   margin-left: 625px;
   padding-bottom: 5px;
 }
-.navbar ul, .footer ul, .below-featured ul {
+.navbar ul, .footer ul, .below-featured ul, .related-results ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,6 +39,12 @@ input {
   display: inline-block;
   padding-left: 15px;
   font: 12px arial, sans-serif;
+}
+.related-results li {
+  display: inline-block;
+  font: 14px arial, sans-serif;
+  font-weight: bold;
+  color: #1a0dab;
 }
 .primary {
   border-bottom: 3px solid #1A73E8;
@@ -167,6 +173,20 @@ padding-top: 15px;
 .divider {
   margin-left: 75px;
 }
+.related-results {
+  margin-left: 140px;
+  width: 700px;
+}
+.related-results li {
+  padding-bottom: 5px;
+  padding-top: 1px;
+}
+.related-results h3 {
+  margin-left: 20px;
+  font-family: 'Roboto', arial, sans-serif;
+  font-weight: normal;
+}
+
 #logo {
   padding-top: 4px;
 }
@@ -186,4 +206,16 @@ padding-top: 15px;
 }
 #results {
   display: block;
+}
+#top-row li {
+  margin-left: 20px;
+  margin-right: 60px;
+}
+#middle-row li {
+  margin-left: 20px;
+  margin-right: 78px;
+}
+#bottom-row li {
+  margin-left: 20px;
+  margin-right: 16px;
 }
