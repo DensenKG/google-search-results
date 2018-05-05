@@ -92,9 +92,9 @@ padding-top: 15px;
   padding-left: 155px;
 }
 .featured {
-  border-style: outset;
-  border-color:#0000000d;
-  box-shadow: .5px .5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e3e3e3;
   position: absolute;
   margin-left: 140px;
   width: 700px;
