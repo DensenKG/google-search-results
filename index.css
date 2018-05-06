@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: arial, sans-serif;
 }
-
 form {
   text-align: center;
   padding-left: 20px;
@@ -10,7 +9,6 @@ form {
   width: 40%;
   position: absolute;
 }
-
 a {
   color: #777;
   text-decoration: none;
@@ -18,6 +16,21 @@ a {
 input {
   padding-left: 10px;
 }
+table {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 30px auto 30px;
+}
+tr {
+  display: table-row;
+  vertical-align: top;
+}
+td {
+  text-align: center;
+  font-size: small;
+  color: rgb(66,147,246,1);
+}
+
 .below-featured {
   margin-top: 275px;
   margin-left: 625px;
@@ -180,11 +193,45 @@ padding-top: 15px;
 .related-results li {
   padding-bottom: 5px;
   padding-top: 1px;
+  margin-left: 20px;
 }
 .related-results h3 {
   margin-left: 20px;
   font-family: 'Roboto', arial, sans-serif;
   font-weight: normal;
+}
+.G {
+  background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -24px 0;
+	background-size: 167px;
+	width: 28px;
+	display: block;
+	height: 40px;
+	margin-bottom: 15px;
+}
+.o {
+  background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+  background-position: -53px 0;
+  background-size: 167px;
+  width: 20px;
+  display: block;
+  height: 40px;
+}
+.o-alt {
+  background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+  background-position: -74px 0;
+  background-size: 167px;
+  width: 20px;
+  display: block;
+  height: 40px;
+}
+.gle {
+  background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+  background-position: -96px 0;
+  background-size: 167px;
+  width: 71px;
+  display: block;
+  height: 40px;
 }
 
 #logo {
@@ -208,14 +255,20 @@ padding-top: 15px;
   display: block;
 }
 #top-row li {
-  margin-left: 20px;
   margin-right: 60px;
 }
 #middle-row li {
-  margin-left: 20px;
   margin-right: 78px;
 }
 #bottom-row li {
-  margin-left: 20px;
   margin-right: 16px;
+}
+#navigation {
+  width: 49%;
+}
+#next {
+  margin-left: 53px;
+}
+#first {
+  color: black;
 }
