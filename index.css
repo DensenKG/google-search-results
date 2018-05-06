@@ -201,36 +201,36 @@ padding-top: 15px;
   font-weight: normal;
 }
 .G {
+  display: block;
   background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
 	background-position: -24px 0;
 	background-size: 167px;
 	width: 28px;
-	display: block;
 	height: 40px;
 	margin-bottom: 15px;
 }
 .o {
+  display: block;
   background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
   background-position: -53px 0;
   background-size: 167px;
   width: 20px;
-  display: block;
   height: 40px;
 }
 .o-alt {
+  display: block;
   background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
   background-position: -74px 0;
   background-size: 167px;
   width: 20px;
-  display: block;
   height: 40px;
 }
 .gle {
+  display: block;
   background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
   background-position: -96px 0;
   background-size: 167px;
   width: 71px;
-  display: block;
   height: 40px;
 }
 
